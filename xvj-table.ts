@@ -15,8 +15,12 @@ export class XvjTable extends LitElement {
     static get styles() {
         return css `
         :host() {
-          margin: 1rem;
           display: block;
+
+          --neutral200: #f7f5f9;
+          --neutral300: #ece9f1;
+
+          --accent600: #6979f8;
         }
 
         caption {
