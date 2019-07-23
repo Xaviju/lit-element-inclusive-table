@@ -1,7 +1,7 @@
 import { LitElement, html, property, customElement, css } from 'lit-element';
 
-@customElement('iss-table')
-export class IssTable extends LitElement {
+@customElement('xvj-table')
+export class XvjTable extends LitElement {
 
     @property() caption = 'Grindcore bands';
     @property() headers = ['Band', 'Singer', 'Inception', 'Label'];

@@ -1,1 +1,1 @@
-import './iss-table.ts';
+import './xvj-table.ts';
